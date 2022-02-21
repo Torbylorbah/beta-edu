@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beta-Library</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.svg" />
+    <link rel="stylesheet" href="css/styles_0.css" />
+    <link rel="stylesheet" href="css/styles_1.css" />
+  </head>
+  <body>
+    <section class="top wh pd">
+      <nav>
+        <div class="logo">
+          <img src="images/logo-foodlab-white.svg" alt="logo" />
+        </div>
+
+        <ul>
+          <li
+            class="desktop drop_btn"
+            onmouseover="dropDown(this)"
+            onmouseout="dropDownHide(this)"
+          >
+            <a href="index.html" class="active">Home</a>
+            <div class="drop_content">
+              <div>History</div>
+              <div>Books</div>
+              <div>Library</div>
+            </div>
+          </li>
+          <li
+            class="desktop drop_btn"
+            onmouseover="dropDown(this)"
+            onmouseout="dropDownHide(this)"
+          >
+            <a href="#">About Us</a>
+            <div class="drop_content">
+              <div>Beta Library</div>
+              <div>Our Services</div>
+              <div>Beta Books</div>
+            </div>
+          </li>
+          <li
+            class="desktop drop_btn"
+            onmouseover="dropDown(this)"
+            onmouseout="dropDownHide(this)"
+          >
+            <a href="#">Book Categories</a>
+            <div class="drop_content">
+              <div>Action</div>
+              <div>Adventure</div>
+              <div>Romance</div>
+            </div>
+          </li>
+
+          <li
+            class="desktop drop_btn"
+            onmouseover="dropDown(this)"
+            onmouseout="dropDownHide(this)"
+          >
+            <a href="#">Contact</a>
+            <div class="drop_content">
+              <div>Email</div>
+              <div>Telephone</div>
+              <div>Office</div>
+            </div>
+          </li>
+          <li
+            class="desktop drop_btn"
+            onmouseover="dropDown(this)"
+            onmouseout="dropDownHide(this)"
+          >
+            <a href="#">Gallery</a>
+            <div class="drop_content">
+              <div>Books</div>
+              <div>Images</div>
+              <div>Videos</div>
+            </div>
+          </li>
+          <li class="mobile">
+            <button><img src="images/menu.svg" alt="menu button" /></button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="title centered">
+        <h1 id="beta">Beta</h1>
+
+        <p>
+          The world's most-loved social storytelling platform. <br />
+          Beta Library connects a global community of millions readers and
+          writers through the power of story.
+        </p>
+
+        <a href="#divform"><button class="bl-btn">Sign Up</button></a>
+      </div>
+    </section>
+
+    <!-- who are we -->
+    <section class="drk container we-are">
+      <div class="col-2 pd">
+        <h4 class="bl">Who Are We</h4>
+        <br />
+
+        <p class="gr">
+          Beta Libraries discovers untapped, unsigned, and talented writers on
+          Wattpad and connects them to global multi-media entertainment
+          companies.
+        </p>
+
+        <button class="bl-btn">Contact Us</button>
+      </div>
+
+      <!-- class img-f for full page image -->
+      <div class="col-2 img-f">
+        <img src="/Images/books-g19a097259_1920.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- section with background image -->
+    <section class="container wh bg-img pd">
+      <div class="col-2"><h2 id="typeWriter">D</h2></div>
+
+      <div class="col-2 container bg-2">
+        <button class="bl-btn">Get in touch now</button>
+      </div>
+    </section>
+
+    <!-- pricing section -->
+    <section class="bg-gr drk">
+      <div class="sub-topic pd">
+        <h2 class="b-btm">Our Book Categories</h2>
+      </div>
+
+      <!-- price cards container -->
+      <div class="container pd car-cards" id="holder"></div>
+
+      <div class="dots"></div>
+    </section>
+
+    <section class="drk container the-form">
+      <div id="divform" class="theform pd col-2">
+        <div>
+          <div class="register bl">
+            <h3 class="wh">Register Now!!!</h3>
+          </div>
+          <form action="">
+            <input
+              type="text"
+              id="name h4"
+              name="fname"
+              placeholder="First Name"
+            />
+            <input type="text" id="name" name="Sname" placeholder="Surname" />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example.gmail.com"
+            />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="*********"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder=" Type your message here"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button onclick="formButton()" class="bl-btn">Send Now</button>
+          </form>
+        </div>
+      </div>
+      <!-- stats -->
+      <div class="stats pd col-2">
+        <div class="headies">
+          <h3 class="wh">NEXT COURSE <span class="b-btm">LOGO STUDY</span></h3>
+          <h2 class="wh">Available Now!!!</h2>
+        </div>
+        <div class="cont--">
+          <div class="talk">
+            <h3 class="wh number">12</h3>
+            <h3 class="wh">Teachers</h3>
+          </div>
+          <div class="talk">
+            <h3 class="wh number">50</h3>
+            <h3 class="wh">Attendees</h3>
+          </div>
+          <div class="talk">
+            <h3 class="wh number">15</h3>
+            <h3 class="wh">Days</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="grid_container">
+        <div><img src="images/logo1.png" alt="" /></div>
+        <div><img src="images/logo4.png" alt="" /></div>
+        <div><img src="images/logo3.png" alt="" /></div>
+        <div><img src="images/logo2.png" alt="" /></div>
+        <div><img src="images/logo5.png" alt="" /></div>
+        <div><img src="images/logo6.png" alt="" /></div>
+      </div>
+      <hr />
+      <div class="log">
+        <div><img src="images/logo-foodlab-white.svg" alt="" /></div>
+      </div>
+      <div class="icon">
+        <div>
+          <a href="#"><img src="images/icon-facebook-circle.svg" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/icon-linkedin-circle.svg" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/icon-pinterest-circle.svg" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/icon-twitter-circle.svg" alt="" /></a>
+        </div>
+        <div>
+          <a href="#"><img src="images/icon-youtube-circle.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="head">
+        <p>&copy;Copyright 2022</p>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
